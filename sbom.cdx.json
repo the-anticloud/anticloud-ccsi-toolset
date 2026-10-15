@@ -1,0 +1,74 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:ad0c338e-8d08-5410-8649-bcf341541f9b",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-08T19:57:21Z",
+    "component": {
+      "type": "application",
+      "name": "CCSI_TOOLSET",
+      "version": "b79c9e1c3f72",
+      "bom-ref": "pkg:generic/anticloud/CCSI_TOOLSET@b79c9e1c3f72",
+      "purl": "pkg:generic/anticloud/CCSI_TOOLSET@b79c9e1c3f72",
+      "licenses": [
+        {
+          "license": {
+            "id": "BSD-3-Clause"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "b79c9e1c3f721ede2ce9ef1ca6176573a358f223"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/CCSI-Toolset/FOQUS"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "aws-sdk",
+      "version": "unspecified",
+      "purl": "pkg:npm/aws-sdk@",
+      "bom-ref": "npm/aws-sdk@unspecified"
+    },
+    {
+      "type": "library",
+      "name": "debug",
+      "version": ">=4.3.4",
+      "purl": "pkg:npm/debug@>=4.3.4",
+      "bom-ref": "npm/debug@>=4.3.4"
+    },
+    {
+      "type": "library",
+      "name": "uuid",
+      "version": "^8.3.2",
+      "purl": "pkg:npm/uuid@^8.3.2",
+      "bom-ref": "npm/uuid@^8.3.2"
+    },
+    {
+      "type": "library",
+      "name": "collections",
+      "version": ">=5.1.11",
+      "purl": "pkg:npm/collections@>=5.1.11",
+      "bom-ref": "npm/collections@>=5.1.11"
+    },
+    {
+      "type": "library",
+      "name": "uuid-validate",
+      "version": ">=0.0.3",
+      "purl": "pkg:npm/uuid-validate@>=0.0.3",
+      "bom-ref": "npm/uuid-validate@>=0.0.3"
+    }
+  ]
+}
